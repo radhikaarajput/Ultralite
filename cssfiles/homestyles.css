@@ -1,0 +1,51 @@
+body{
+    font-family: "Trirong", serif;
+}
+
+
+.headingmain
+{
+    text-align: center;
+}
+
+.headings
+{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.col-md-4 img
+{
+	padding-left: 50px;
+	padding-right: 50px;;
+}
+
+thumbnail
+{
+	padding:30px;
+}
+
+
+/*image bg*/
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+  }
+
+
+/* ============ only desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .dropdown-menu-end{ right:0; left: auto;  }
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}	
+
+
+
